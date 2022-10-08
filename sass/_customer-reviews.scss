@@ -1,10 +1,18 @@
-.reviews__section{}
+.reviews__section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
-.reviews__swiper-wrapper{}
+.reviews__swiper-wrapper{
+    display: flex;
+}
 
 
-.reviews__swiper-slide{}
+.reviews__swiper-slide{
+    width: 280px;
+    height: 466px;
+}
 
 
 .reviews__img{
