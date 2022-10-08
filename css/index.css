@@ -95,6 +95,20 @@ button {
     width: 1200px;
   }
 }
+.reviews__section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reviews__swiper-wrapper {
+  display: flex;
+}
+
+.reviews__swiper-slide {
+  width: 280px;
+  height: 466px;
+}
+
 .reviews__img {
   border-radius: 50%;
   margin-left: auto;
