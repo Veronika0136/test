@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@700&family=Seymour+One&display=swap" 
-      rel="stylesheet">
-    <link rel="stylesheet" href="./index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@700&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.min.css" />
+  </head>
+  <body>
+    <!-- Customer reviews section -->
+    <section class="reviews__section">
+      <div class="container ">
+        <h2 class="reviews__title">Customer reviews</h2>
+        <div class="reviews__swiper-wrapper">
+          <!-- Slides -->
+         <div class="reviews__swiper-slide">
+          <img src="./images/human-1.png" alt="girl photo">
+          <p>I love visiting your cafe.
+            You prepare the most delicious ice cream in Los Angeles! 
+           In addition, you have beautiful serving, cozy atmosphere and polite staff.</p>
+          <p>Emily, Los Angeles</p>
+         </div>
+         <div class="reviews__swiper-slide">
+          <img src="./images/human-2.png" alt="photo guy holding ice cream in hand">
+          <p>I love eating popsicles on a hot day. Yours is always delicious. I recommend your cafe to everyone I know.</p>
+          <p>Sam, Los Angeles</p>
+         </div>
+         <div class="reviews__swiper-slide">
+          <img src="./images/human-3.png" alt="photo girl holding ice cream in her hand">
+          <p>Ice cream is my passion! I love your chocolate hazelnut ice cream! And I really like the excellent service - always served politely and quickly!</p>
+          <p>Diana, Chicago</p>
+         </div>
+         <div class="reviews__swiper-slide">
+          <img src="./images/human-4.png" alt="photo guy eating ice cream">
+          <p>Every day we come to you with friends after classes in college. We love your ice cream and casual atmosphere!</p>
+          <p>Bryan, New-York</p>
+         </div> 
 
-</head>
-<body>
-<!-- Customer reviews -->
-<section class="reviews__section">
-  <div class="container">
-      <h2 class="reviews__title">Customer reviews</h2>
-  </div>
-  </section>
-</body>
+         <div class="reviews__swiper-pagination"></div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>  
+    <script src="/script.js"></script>  
+  </body>
 </html>
