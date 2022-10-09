@@ -3,8 +3,50 @@
     padding-right: 20px;
     margin: 0;
     background-image: url(../images/bg-review-mobile.jpg);
-    
 }
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  .reviews__section {
+    background-image: url('../images/bg-review-mobile@2x.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .reviews__section {
+      background-image: url('../images/bg-review-tablet.jpg');
+    }
+  }
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .reviews__section {
+    background-image: url('../images/bg-review-tablet@2x.jpg');
+  }
+}  
+
+@media screen and (min-width: 1200px) {
+    .reviews__section{
+      background-image: url('../images/bg-review-desktop.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .reviews__section {
+    background-image: url('../images/bg-review-desktop@2x.jpg');
+  }
+}
+
+
+
+
+
+
+
 
 
 // .reviews__swiper-wrapper{
