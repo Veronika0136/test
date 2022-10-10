@@ -171,6 +171,17 @@ button {
     line-height: 1.8571428571;
     padding: 29px 80px 28px 80px;
     margin-bottom: 32px;
+    border-radius: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reviews__txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.875;
+    padding: 39px 74px 39px 73px;
+    margin-bottom: 32px;
+    border-radius: 24px;
   }
 }
 
