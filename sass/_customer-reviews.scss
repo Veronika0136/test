@@ -8,15 +8,22 @@
   height: 100%;
 }  
 
-// .reviews__section .container {
-//   padding-left: 20px;
-//   padding-right: 20px;
+.reviews__section .container {
+  margin-left: auto;
+  margin-right: auto;
 
-// @media screen and (min-width: 768px){
-//   padding-left: 32px;
-//   padding-right: 32px;
-// }
-// }
+@media screen and (min-width:480px){
+  width: 440px;
+}  
+
+@media screen and (min-width:768px){
+  width: 738px;
+}
+
+@media screen and (min-width:1200px){
+  width: 1170px;
+}
+}
 
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
