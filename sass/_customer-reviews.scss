@@ -134,8 +134,13 @@
   text-align: center;
 }
 
+//добавить
  
-
+span.swiper-pagination-bullet-active{
+  background-color:var(--background-main-color);
+  width: 10px;
+  height: 10px;
+}
 
 // .swiper-pagination-bullet {
 //     width:12px;
