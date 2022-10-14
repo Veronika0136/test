@@ -63,6 +63,50 @@
     </section>
 
 
+    <div class="btns-wrap ">
+      <button class="header-menu-btn "><svg width="28px" height="22px" class="header-menu-icon" header-modal-close>
+              <use href="/src/images/sprite.svg#burger"></use>
+          </svg></button>
+      <button class="header-btn btn_sign">Buy now<svg width="12px" height="12px"
+              class="header-btn-icon">
+              <use href="/src/images/sprite.svg#icon-button-arrow"></use>
+          </svg></button>
+  </div> 
+
+    <div class="backdrop modal-window_entry">
+      <div class="general-modal">
+          <button type="button" class="modal-btn-close button close-entry">
+              <svg class="modal-btn-close__icon">
+                  <use href="./images/sprite.svg#btn-close-modal"></use>
+              </svg>
+          </button>
+          <h2 class="modal__title">Buy now</h2>
+          <ul class="general-modal__list">
+              <li class="general-modal__link general-modal__img general-modal__img_icecream">
+                  <div class="general-modal__shadow general-modal__shadow_icecream"></div>
+                  <p class="general-modal__text">ice cream</p>
+              </li>
+              <li class="general-modal__link general-modal__img general-modal__img_icecoffee">
+                  <div class="general-modal__shadow general-modal__shadow_icecoffee"></div>
+                  <p class="general-modal__text">ice coffee</p>
+              </li>
+              <li class="general-modal__link general-modal__img general-modal__img_milkshake">
+                  <div class="general-modal__shadow general-modal__shadow_milkshake"></div>
+                  <p class="general-modal__text">milkshake</p>
+              </li>
+          </ul>
+          <form class="general-modal-form" action="">
+              <input class="general-modal-form__input" type="text" name="name" placeholder="Name" required
+                  pattern="[a-zA-Zа-яА-ЯіІїЇ`]+">
+              <input class="general-modal-form__input" type="tel" name="phone" placeholder="Phone" required
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
+              <textarea class="general-modal-form__textarea" name="comment" placeholder="Comment"></textarea>
+          </form>
+              <button type="submit" class="general-modal-form__btn">Submit</button>
+      </div>
+    </div>
+
+
     <div class="plate-img">
       <img src="/images/plate-desktop.png" alt="plate with ice-cream">
   </div>
@@ -70,5 +114,9 @@
     <!--  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> 
     <script src="./swiper-script.js"></script>  
+
+    <script src="./general-modal.js"></script>
   </body>
 </html>
+
+
