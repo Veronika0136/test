@@ -276,3 +276,51 @@ span.swiper-pagination-bullet-active{
 // .swiper-creative .swiper-slide{-webkit-backface-visibility:hidden;backface-visibility:hidden;overflow:hidden;transition-property:transform,opacity,height}
 // .swiper-cards{overflow:visible}
 // .swiper-cards .swiper-slide{transform-origin:center bottom;-webkit-backface-visibility:hidden;backface-visibility:hidden;overflow:hidden}
+
+
+
+
+.plate-img{
+  display: inline-block;
+  transform-origin: center center;
+  animation: animate360 4000ms linear 1000ms infinite;
+
+}
+
+@keyframes animate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(45deg);
+  }
+
+  20% {
+    transform: rotate(90deg);
+  }
+
+  30% {
+    transform: rotate(135deg);
+  }
+
+  40% {
+    transform: rotate(180deg);
+  }
+
+  55% {
+    transform: rotate(235deg);
+  }
+
+  70% {
+    transform: rotate(280deg);
+  }
+
+  85% {
+    transform: rotate(335deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
